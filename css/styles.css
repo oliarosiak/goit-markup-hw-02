@@ -1,0 +1,175 @@
+/* - - - - - - CSS ПЕРЕМЕННЫЕ - - - - - - */
+:root {
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --third-text-color: #ffffff;
+  --hero-color: #ffffff;
+  --accent-color: #2196f3;
+  --main-backgroung-color: #2f303a;
+  --secong-background-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+}
+
+/* - - - - - - УТИЛІТИ - - - - - - */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header Logo */
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.header-logo > span {
+  color: var(--second-text-color);
+}
+
+/* Header */
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-section {
+  background-color: var(--main-backgroung-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* About */
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Work & Team */
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+/* Team */
+.team-section {
+  background-color: var(--secong-background-color);
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.team-item-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--main-backgroung-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.footer-logo > span {
+  color: var(--third-text-color);
+}
+
+.address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-text {
+  color: var(--third-text-color);
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
