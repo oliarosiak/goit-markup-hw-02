@@ -3,7 +3,6 @@
   --main-text-color: #757575;
   --second-text-color: #212121;
   --third-text-color: #ffffff;
-  --hero-color: #ffffff;
   --accent-color: #2196f3;
   --main-backgroung-color: #2f303a;
   --secong-background-color: #f5f4fa;
@@ -25,9 +24,9 @@ body {
 }
 
 /* Header Logo */
-.header-logo {
+.header-logo,
+.footer-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -39,13 +38,16 @@ body {
 }
 
 /* Header */
-
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+
+.header-link.current {
+  color: var(--accent-color);
 }
 
 .header-link:hover,
@@ -78,10 +80,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--hero-color);
+  color: var(--third-text-color);
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -89,7 +92,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--hero-color);
+  color: var(--third-text-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -140,15 +143,6 @@ body {
 /* Footer */
 .footer {
   background-color: var(--main-backgroung-color);
-}
-
-.footer-logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
 }
 
 .footer-logo > span {
